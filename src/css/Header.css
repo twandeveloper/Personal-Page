@@ -1,0 +1,16 @@
+
+    .bg {
+    background-image: url("/images/computer.jpg");
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .title{
+        margin: 20% auto;
+        width: 30%;
+        font-style: bold;
+        font-size: 3em;
+    }

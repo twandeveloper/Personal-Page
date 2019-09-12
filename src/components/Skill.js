@@ -14,11 +14,10 @@ export class Skill extends Component {
     render() {
         const skillStyle = {
             display: 'inline-block',
-            justifyContent: 'center',
-            backgroundImage: 'url("https://picsum.photos/1000")',
+            justifyContent: 'center'
         }
         return this.state.skills.map((skill, index) => {
-            return(<div style={skillStyle}>
+            return(<div class="row" style={skillStyle}>
                     <Skills
                     title={skill.title}
                     desc={skill.description}/>

@@ -8,7 +8,7 @@ export class Skills extends Component {
             width: '18rem',
             display: 'flex',
             justifyContent: 'center',
-            margin: '20px 20px'
+            margin: '30% 70px'
         }
 
         const btnSectionStyle = {
@@ -20,6 +20,7 @@ export class Skills extends Component {
         }
         
         return (    
+            <div class="col-lg 3 col-md-3 col-sm-12 col-xs-12">
             <div class="card" style={cardStyle}>
             <img src="https://picsum.photos/200" class="card-img-top" alt="..."></img>
             <div class="card-body">
@@ -29,7 +30,7 @@ export class Skills extends Component {
                 <a style={btnStyle} href="#" class="btn btn-primary">View Code</a>
                 <a style={btnStyle} href="#" class="btn btn-primary">View Site</a>
                 </div>
-      
+            </div>
             </div>
             </div>
         )

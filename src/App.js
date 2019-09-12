@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Nav from './components/Nav'
 import Header from './components/Header'
-import Skill from './components/Skill'
+import SkillSection from './components/SkillSection'
 
 function App() {
   const headerStyle = {
@@ -13,9 +13,8 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <div style={headerStyle}>
-      <Skill />
-      </div>
+      <SkillSection />
+    
       
     </div>
   );
