@@ -6,7 +6,7 @@ export class Skill extends Component {
 
     state = {
         skills:[
-            {title: 'Simon Says', description: 'I know html', image: '/images/Simon'},
+            {title: 'Simon Says', description: 'I know html', url: 'https://twandeveloper.github.io/simon-says/'},
             {title: 'CSS', description: 'I know Css'},
             {title: 'JavaScript', description: 'I know JavaScript'},
             {title: 'Java', description: 'I know Java'},
@@ -21,7 +21,8 @@ export class Skill extends Component {
             return(<div class="row" style={skillStyle}>
                     <Skills
                     title={skill.title}
-                    desc={skill.description}/>
+                    desc={skill.description}
+                    site={skill.url}/>
                     </div>)
         })
     }

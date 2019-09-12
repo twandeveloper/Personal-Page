@@ -28,7 +28,7 @@ export class Skills extends Component {
                 <p class="card-text">{this.props.desc}</p>
                 <div style={btnSectionStyle}>
                 <a style={btnStyle} href="#" class="btn btn-primary">View Code</a>
-                <a style={btnStyle} href="#" class="btn btn-primary">View Site</a>
+                <a style={btnStyle} href={this.props.site} class="btn btn-primary">View Site</a>
                 </div>
             </div>
             </div>
