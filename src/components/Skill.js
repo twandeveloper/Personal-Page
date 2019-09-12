@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import Skills from './Skills'
 
+
 export class Skill extends Component {
 
     state = {
         skills:[
-            {title: 'HTML', description: 'I know html'},
+            {title: 'Simon Says', description: 'I know html', image: '/images/Simon'},
             {title: 'CSS', description: 'I know Css'},
             {title: 'JavaScript', description: 'I know JavaScript'},
             {title: 'Java', description: 'I know Java'},

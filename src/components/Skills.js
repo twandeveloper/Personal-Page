@@ -8,7 +8,7 @@ export class Skills extends Component {
             width: '18rem',
             display: 'flex',
             justifyContent: 'center',
-            margin: '30% 70px'
+            margin: '40% 70px'
         }
 
         const btnSectionStyle = {
