@@ -5,7 +5,7 @@ export class Skills extends Component {
     
     render() {
         const cardStyle = {
-            width: '18rem',
+            width: '15rem',
             display: 'flex',
             justifyContent: 'center',
             margin: '40% 70px'

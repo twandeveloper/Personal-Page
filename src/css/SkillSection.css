@@ -2,8 +2,12 @@
     .sbg {
         background-image: url("/images/create.jpg");
         height: 100vh;
+        background-position: center;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -moz-background-size: cover;
         }
     

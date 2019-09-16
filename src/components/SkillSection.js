@@ -5,14 +5,8 @@ import '../css/SkillSection.css'
 export class SkillSection extends Component {
     render() {
 
-        const skillStyle = {
-            backgroundImage: 'url("https://picsum.photos/1000")',
-            backgroundAttachment: 'fixed',
-            height: '100vh'
-        }
-
         return (
-            <div class="container" className = 'sbg'>
+            <div class="container-fluid" className = 'sbg'>
                 <Skill/>
             </div>
         )
